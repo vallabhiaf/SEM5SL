@@ -5,10 +5,11 @@ odd=[]
 for i in range (n):
     a = int(input("Enter the elements:"))
     ele.append(a)
-    for i in (ele):
-        if(i%2==0):
-            even.append(i)
-        else:
-            odd.append(i)
+for i in (ele):
+    if(i%2==0):
+     even.append(i)
+    else:
+     odd.append(i)
+     
 print("L E", max(even))
 print("L O", max(odd))
